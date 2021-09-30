@@ -33,12 +33,9 @@ static final CameraPosition _kInitialPosition =
           ),
         ),
         drawer: Drawer(),
-        body: Column(
-          children: [
-          GoogleMap(
+        body: GoogleMap(
       initialCameraPosition: _kInitialPosition,
-    ),
-          ],
+    
         ),
         );
   }
